@@ -1,0 +1,134 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+h3{
+    text-shadow: 2px 2px 8px #000;
+}
+h6{
+    text-shadow: 1px 1px 4px #000;
+}
+
+
+#green-h1{
+    font-size: 26px;
+    color: #405c2d;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#green-h2{
+    font-size: 16px;
+    color: #405c2d;
+    margin-top: 4px;
+}
+
+#white-h1{
+    font-size: 44px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+#white-h2{
+    font-size: 18px;
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.home-link > ul{
+    list-style: none;
+}
+.home-link  a{
+    color: #405c2d;
+    display: block;
+    text-decoration: none;
+    font-size: smaller;
+}
+.home-link a:hover{
+    background-color: #67a042;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+.home-link a:focus{
+    background-color: #67a042;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -5px;
+}
+.home-link > ul >li{
+    float: left;
+    width: 16%;
+    text-align: center;
+}
+
+#home-panel{
+    height: 400px;
+    width: 100%;
+}
+#about-panel{
+   height: auto;
+    width: 100%;
+}
+
+#home-left-panel{
+    background-image: 
+    linear-gradient(rgba(60,120,59,.8), rgba(60,120,59,.8)),
+    url("../img/pic2.jpeg");
+}
+
+#home-btn{
+margin-top: 16px;
+font-size: 14px;
+padding: 6px;
+background-color: transparent;
+color: white;
+border: solid 1px white;
+border-radius: 6px;
+}
+
+#home-btn:hover{
+    background-color: #67aa42;
+}
+#welcome-div{
+    background-color: #e2eddb;
+    
+}
+
+h5{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.footer-button{
+    padding: 6px;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+.footer-button:hover{
+    background-color: white;
+    color: black;
+}
+.footer-button:focus{
+    background-color: white;
+    color: black;
+}
+#focus-panel{
+    background-color: white;
+    margin: 50px;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 400px;
+}
